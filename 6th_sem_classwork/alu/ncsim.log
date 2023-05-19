@@ -1,0 +1,29 @@
+ncsim(64): 15.20-s051: (c) Copyright 1995-2018 Cadence Design Systems, Inc.
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> database -open waves -into waves.shm -default
+Created default SHM database waves
+ncsim> probe -create -shm alu_tb.addr alu_tb.clk1 alu_tb.clk2 alu_tb.func alu_tb.k alu_tb.rd alu_tb.rs1 alu_tb.rs2 alu_tb.zout
+Created probe 1
+ncsim> run
+Time:    0, zout =   x
+Time:   27, zout =   8
+Time:   47, zout =  24
+Time:   67, zout =   0
+Time:   87, zout =  14
+Time:  107, zout =   4
+Time:  127, zout =  14
+mem[125]=   8
+mem[126]=  24
+mem[127]=   0
+mem[128]=  14
+mem[129]=   4
+mem[130]=  14
+Simulation complete via $finish(1) at time 300 NS + 0
+./alu_tb.v:62 #300 $finish;
+ncsim> ^C
+ncsim> exit
+ncsim: Memory Usage - 38.6M program + 187.8M data = 226.4M total (230.0M Peak)
+ncsim: CPU Usage - 0.6s system + 0.4s user = 1.0s total (41.8s, 2.4% cpu)

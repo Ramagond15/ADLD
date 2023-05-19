@@ -1,0 +1,25 @@
+ncsim(64): 15.20-s051: (c) Copyright 1995-2018 Cadence Design Systems, Inc.
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> database -open waves -into waves.shm -default
+Created default SHM database waves
+ncsim> probe -create -shm pipelining_tb.A pipelining_tb.B pipelining_tb.C pipelining_tb.D pipelining_tb.F pipelining_tb.clk
+Created probe 1
+ncsim> run
+Time:                     0,  F =    x
+Time:                    56,  F =  140
+Time:                    76,  F =   42
+Time:                    96,  F =  174
+Time:                   116,  F =   42
+Time:                   136,  F =   84
+Time:                   156,  F =  119
+Time:                   176,  F =   30
+Time:                   196,  F =   75
+Simulation complete via $finish(1) at time 300 NS + 0
+./pipelining_tb.v:44 #300 $finish;
+ncsim> ^C
+ncsim> exit
+ncsim: Memory Usage - 38.6M program + 183.6M data = 222.3M total (225.8M Peak)
+ncsim: CPU Usage - 2.0s system + 1.1s user = 3.1s total (109.5s, 2.8% cpu)

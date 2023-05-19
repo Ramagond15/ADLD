@@ -1,0 +1,21 @@
+irun(64): 15.20-s051: (c) Copyright 1995-2018 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s051: Started on May 19, 2023 at 12:11:17 IST
+irun
+	-access +rwc
+	pipelining_tb.v
+Loading snapshot worklib.pipelining_tb:v .................... Done
+ncsim> source /cad_area/install/INCISIVE152/tools/inca/files/ncsimrc
+ncsim> run
+Time:                     0,  F =    x
+Time:                    56,  F =  140
+Time:                    76,  F =   42
+Time:                    96,  F =  174
+Time:                   116,  F =   42
+Time:                   136,  F =   84
+Time:                   156,  F =  119
+Time:                   176,  F =   30
+Time:                   196,  F =   75
+Simulation complete via $finish(1) at time 300 NS + 0
+./pipelining_tb.v:44 #300 $finish;
+ncsim> exit
+TOOL:	irun(64)	15.20-s051: Exiting on May 19, 2023 at 12:11:17 IST  (total: 00:00:00)

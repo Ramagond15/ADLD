@@ -1,0 +1,13 @@
+irun(64): 15.20-s051: (c) Copyright 1995-2018 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s051: Started on May 19, 2023 at 12:03:40 IST
+irun
+	-access +rwc
+	test3_mips32.v
+Loading snapshot worklib.test3_mips32:v .................... Done
+ncsim> source /cad_area/install/INCISIVE152/tools/inca/files/ncsimrc
+ncsim> run
+Mem[200] =  7, Mem[198] =   5040
+Simulation complete via $finish(1) at time 5 US + 0
+./test3_mips32.v:46  #3000 $finish; 
+ncsim> exit
+TOOL:	irun(64)	15.20-s051: Exiting on May 19, 2023 at 12:03:40 IST  (total: 00:00:00)
