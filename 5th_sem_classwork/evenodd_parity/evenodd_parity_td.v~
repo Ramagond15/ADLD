@@ -1,0 +1,37 @@
+module evenodd_parity_td;
+reg clk,x;
+wire z;
+evenodd_parity PAR(x,clk,z);
+initial
+begin
+$monitor("x=%b clk=%b z=%b",x,clk,z);
+clk=1'b0;
+end
+always #5 clk=~clk;
+initial 
+begin
+#2 x=0; #10 x=1; #10 x=1; #10 x=1;
+#10 x=0; #10 x=1; #10 x=1; #10 x=0;
+#10 x=0; #10 x=1; #10 x=1; #10 x=1;
+#10 $finish; 
+end 
+endmodule
+
+module evenodd_parity(x,clk,z);
+input x,clk;
+output reg z;
+reg even_odd;
+parameter even=0,odd=1;
+always@(posedge clk)
+case(even_odd)
+even : begin 
+       z<=x ? 1:0;
+       even_odd<=x ? odd:even;
+       end
+odd : begin
+      z<=x ? 0:1;
+      even_odd<=x ? even:odd;
+      end
+default:even_odd<=even;
+       endcase 
+endmodule

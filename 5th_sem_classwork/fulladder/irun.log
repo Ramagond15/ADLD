@@ -1,0 +1,46 @@
+irun(64): 15.20-s051: (c) Copyright 1995-2018 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s051: Started on Aug 04, 2022 at 11:30:56 IST
+irun
+	-access +rwc
+	fulladder_td.v
+Recompiling... reason: file './fulladder_td.v' is newer than expected.
+	expected: Thu Aug  4 11:13:33 2022
+	actual:   Thu Aug  4 11:20:40 2022
+file: fulladder_td.v
+	module worklib.fulladder_tb:v
+		errors: 0, warnings: 0
+	module worklib.fulladder:v
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		fulladder_tb
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.fulladder_tb:v <0x4a1c594a>
+			streams:   5, words:  8276
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		             Instances  Unique
+		Modules:             2       2
+		Primitives:          5       3
+		Registers:           3       3
+		Scalar wires:        3       -
+		Initial blocks:      1       1
+		Pseudo assignments:  3       3
+	Writing initial simulation snapshot: worklib.fulladder_tb:v
+Loading snapshot worklib.fulladder_tb:v .................... Done
+ncsim> source /cad_area/install/INCISIVE152/tools/inca/files/ncsimrc
+ncsim> run
+x=0 y=0 ci=0 s=0 co=0
+x=0 y=0 ci=1 s=1 co=0
+x=0 y=1 ci=0 s=1 co=0
+x=0 y=1 ci=1 s=0 co=1
+x=1 y=0 ci=0 s=1 co=0
+x=1 y=0 ci=1 s=0 co=1
+x=1 y=1 ci=0 s=0 co=1
+x=1 y=1 ci=1 s=1 co=1
+ncsim: *W,RNQUIE: Simulation is complete.
+ncsim> exit
+TOOL:	irun(64)	15.20-s051: Exiting on Aug 04, 2022 at 11:30:56 IST  (total: 00:00:00)

@@ -1,0 +1,6 @@
+s1(06Aug2022:12:47:56):  irun -access +rwc evenodd_parity_td.v 
+s2(06Aug2022:12:48:51):  irun -access +rwc evenodd_parity_td.v 
+s3(06Aug2022:12:52:06):  irun -access +rwc evenodd_parity_td.v 
+s4(06Aug2022:12:58:27):  irun -access +rwc evenodd_parity_td.v 
+s5(06Aug2022:13:45:39):  irun -access +rwc evenodd_parity_td.v 
+s6(06Aug2022:13:45:59):  irun -access +rwc evenodd_parity_td.v 

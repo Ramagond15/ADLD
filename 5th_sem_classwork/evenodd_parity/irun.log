@@ -1,0 +1,43 @@
+irun(64): 15.20-s051: (c) Copyright 1995-2018 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s051: Started on Aug 06, 2022 at 13:45:59 IST
+irun
+	-access +rwc
+	evenodd_parity_td.v
+Loading snapshot worklib.evenodd_parity_td:v .................... Done
+ncsim> source /cad_area/install/INCISIVE152/tools/inca/files/ncsimrc
+ncsim> run
+x=x clk=0 z=x
+x=0 clk=0 z=x
+x=0 clk=1 z=x
+x=0 clk=0 z=x
+x=1 clk=0 z=x
+x=1 clk=1 z=1
+x=1 clk=0 z=1
+x=1 clk=1 z=0
+x=1 clk=0 z=0
+x=1 clk=1 z=1
+x=1 clk=0 z=1
+x=0 clk=0 z=1
+x=0 clk=1 z=1
+x=0 clk=0 z=1
+x=1 clk=0 z=1
+x=1 clk=1 z=0
+x=1 clk=0 z=0
+x=1 clk=1 z=1
+x=1 clk=0 z=1
+x=0 clk=0 z=1
+x=0 clk=1 z=1
+x=0 clk=0 z=1
+x=0 clk=1 z=1
+x=0 clk=0 z=1
+x=1 clk=0 z=1
+x=1 clk=1 z=0
+x=1 clk=0 z=0
+x=1 clk=1 z=1
+x=1 clk=0 z=1
+x=1 clk=1 z=0
+x=1 clk=0 z=0
+Simulation complete via $finish(1) at time 122 NS + 0
+./evenodd_parity_td.v:16 #10 $finish; 
+ncsim> exit
+TOOL:	irun(64)	15.20-s051: Exiting on Aug 06, 2022 at 13:46:00 IST  (total: 00:00:01)

@@ -1,0 +1,2 @@
+s1(04Aug2022:12:08:09):  irun -access +rwc ripple_carry_td.v 
+s2(04Aug2022:12:09:50):  irun -access +rwc ripple_carry_td.v 

@@ -1,0 +1,14 @@
+irun(64): 15.20-s051: (c) Copyright 1995-2018 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s051: Started on Aug 05, 2022 at 13:30:02 IST
+irun
+	-access +rwc
+	cyclic_lamp.v
+file: cyclic_lamp.v
+endcase
+      |
+ncvlog: *E,NOTSTT (cyclic_lamp.v,22|6): expecting a statement [9(IEEE)].
+	module worklib.cyclic_lamp:v
+		errors: 1, warnings: 0
+ncvlog: *F,NOTOPL: no top-level unit found, must have recursive instances.
+irun: *E,VLGERR: An error occurred during parsing.  Review the log file for errors with the code *E and fix those identified problems to proceed.  Exiting with code (status 2).
+TOOL:	irun(64)	15.20-s051: Exiting on Aug 05, 2022 at 13:30:02 IST  (total: 00:00:00)

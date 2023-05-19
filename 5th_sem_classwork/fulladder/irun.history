@@ -1,0 +1,5 @@
+s1(04Aug2022:11:22:06):  irun -access +rwc fulladder_td.v 
+s2(04Aug2022:11:24:45):  irun -access +rwc fulladder_tb.v 
+s3(04Aug2022:11:25:51):  irun -access +rwc fulladder_td.v 
+s4(04Aug2022:11:29:04):  irun -access +rwc fulladder_td.v 
+s5(04Aug2022:11:30:56):  irun -access +rwc fulladder_td.v 

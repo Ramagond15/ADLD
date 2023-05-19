@@ -1,0 +1,8 @@
+irun(64): 15.20-s051: (c) Copyright 1995-2018 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s051: Started on Aug 03, 2022 at 13:09:54 IST
+irun
+	-access +rwc
+	xorgate
+irun: *E,FMUK: The type of the file (xorgate) could not be determined.
+irun: *E,FILEMIS: Cannot find the provided file xorgate.
+TOOL:	irun(64)	15.20-s051: Exiting on Aug 03, 2022 at 13:09:54 IST  (total: 00:00:00)

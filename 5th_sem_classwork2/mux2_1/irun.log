@@ -1,0 +1,43 @@
+irun(64): 15.20-s051: (c) Copyright 1995-2018 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s051: Started on Aug 05, 2022 at 10:22:30 IST
+irun
+	-access +rwc
+	mux2_1_td.v
+file: mux2_1_td.v
+	module worklib.mux2_1_td:v
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		mux2_1_td
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.mux2_1:v <0x7169ce7c>
+			streams:   0, words:     0
+		worklib.mux2_1_td:v <0x1ff4816d>
+			streams:   5, words:  7857
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		             Instances  Unique
+		Modules:             2       2
+		Registers:           3       3
+		Scalar wires:        4       -
+		Initial blocks:      1       1
+		Cont. assignments:   0       1
+		Pseudo assignments:  3       3
+	Writing initial simulation snapshot: worklib.mux2_1_td:v
+Loading snapshot worklib.mux2_1_td:v .................... Done
+ncsim> source /cad_area/install/INCISIVE152/tools/inca/files/ncsimrc
+ncsim> run
+i0=0 i1=0 s=0 y=0
+i0=0 i1=0 s=1 y=0
+i0=0 i1=1 s=0 y=0
+i0=0 i1=1 s=1 y=1
+i0=1 i1=0 s=0 y=1
+i0=1 i1=0 s=1 y=0
+i0=1 i1=1 s=0 y=1
+i0=1 i1=1 s=1 y=1
+ncsim: *W,RNQUIE: Simulation is complete.
+ncsim> exit
+TOOL:	irun(64)	15.20-s051: Exiting on Aug 05, 2022 at 10:22:39 IST  (total: 00:00:09)

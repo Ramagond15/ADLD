@@ -1,0 +1,41 @@
+irun(64): 15.20-s051: (c) Copyright 1995-2018 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s051: Started on Aug 03, 2022 at 12:42:10 IST
+irun
+	-access +rwc
+	orgate_tb.v
+file: orgate_tb.v
+	module worklib.orgate_tb:v
+		errors: 0, warnings: 0
+	module worklib.orgate:v
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		orgate_tb
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.orgate:v <0x1c3c5e9a>
+			streams:   0, words:     0
+		worklib.orgate_tb:v <0x7f4e1ec9>
+			streams:   4, words:  4647
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		             Instances  Unique
+		Modules:             2       2
+		Registers:           2       2
+		Scalar wires:        3       -
+		Initial blocks:      1       1
+		Cont. assignments:   0       1
+		Pseudo assignments:  2       2
+	Writing initial simulation snapshot: worklib.orgate_tb:v
+Loading snapshot worklib.orgate_tb:v .................... Done
+ncsim> source /cad_area/install/INCISIVE152/tools/inca/files/ncsimrc
+ncsim> run
+a=0 b=0 c=0
+a=0 b=1 c=1
+a=1 b=0 c=1
+a=1 b=1 c=1
+ncsim: *W,RNQUIE: Simulation is complete.
+ncsim> exit
+TOOL:	irun(64)	15.20-s051: Exiting on Aug 03, 2022 at 12:42:12 IST  (total: 00:00:02)

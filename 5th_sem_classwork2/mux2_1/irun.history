@@ -1,0 +1,2 @@
+s1(05Aug2022:10:21:28):  irun -access +rwc mux2_1_td.v 
+s2(05Aug2022:10:22:30):  irun -access +rwc mux2_1_td.v 

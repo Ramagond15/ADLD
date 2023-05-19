@@ -1,0 +1,35 @@
+irun(64): 15.20-s051: (c) Copyright 1995-2018 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s051: Started on Aug 04, 2022 at 12:09:50 IST
+irun
+	-access +rwc
+	ripple_carry_td.v
+file: ripple_carry_td.v
+	module worklib.ripple_carry_td:v
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		ripple_carry_td
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.ripple_carry_td:v <0x05a1431f>
+			streams:   5, words:  4935
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		              Instances  Unique
+		Modules:              6       3
+		Primitives:          20       3
+		Registers:            3       3
+		Scalar wires:         1       -
+		Expanded wires:       8       2
+		Initial blocks:       1       1
+		Pseudo assignments:   3       3
+	Writing initial simulation snapshot: worklib.ripple_carry_td:v
+Loading snapshot worklib.ripple_carry_td:v .................... Done
+ncsim> source /cad_area/install/INCISIVE152/tools/inca/files/ncsimrc
+ncsim> run
+x=0001 y=0010 ci=0 s=0011 co=0
+ncsim: *W,RNQUIE: Simulation is complete.
+ncsim> exit
+TOOL:	irun(64)	15.20-s051: Exiting on Aug 04, 2022 at 12:09:52 IST  (total: 00:00:02)
